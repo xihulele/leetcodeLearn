@@ -15,12 +15,23 @@
 
 package leetcode.editor.cn;
 
-import leetcode.editor.cn.domain.ListNode;
+
 
 //java:两数相加
 public class P2AddTwoNumbers{
     public static void main(String[] args){
         Solution solution = new P2AddTwoNumbers().new Solution();
+//        ListNode l1=new ListNode(2);
+//        l1.next=new ListNode(4);
+//        l1.next.next=(new ListNode(3));
+//        ListNode l2=new ListNode(5);
+//        l2.next=(new ListNode(6));
+//        l2.next.next=(new ListNode(4));
+//        ListNode l3 = solution.addTwoNumbers(l1, l2);
+//        while (l3!=null){
+//            System.out.print(l3.val+",");
+//            l3=l3.next;
+//        }
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 /**
@@ -36,9 +47,45 @@ public class P2AddTwoNumbers{
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
-        return null;
+        ListNode l3=new ListNode(-1);
+        ListNode p1=l1;
+        ListNode p2=l2;
+        ListNode p3=l3;
+        int flag=0;
+        while(p1!=null||p2!=null){
+            int temp=flag;
+            flag=0;
+            if(p1!=null){
+                temp=temp+p1.val;
+                p1=p1.next;
+            }
+            if(p2!=null){
+                temp=temp+p2.val;
+                p2=p2.next;
+            }
+            if(temp>9){
+                temp=temp%10;
+                flag=1;
+            }
+            p3.next=new ListNode(temp);
+            p3=p3.next;
+        }
+        if(flag==1){
+            p3.next=new ListNode(1);
+        }
+        return l3.next;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
+
+
+    public  class ListNode {
+        int val;
+        ListNode next;
+        public ListNode() {}
+        public ListNode(int val) { this.val = val; }
+        public ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+
+    }
 }
