@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88c00568-2314-4050-8fd1-7d0b53c4205a" name="Default Changelist" comment="test3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/2P4MedianOfTwoSortedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P2AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P2AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P4MedianOfTwoSortedArrays.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/domain/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/domain/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/P1TwoSum$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/P1TwoSum$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/P1TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/P1TwoSum.class" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,8 +49,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\KaiFaAnZhaung\maven-repository" />
-        <option name="mavenHome" value="D:/KaiFaAnZhaung/apache-maven-3.6.2" />
+        <option name="localRepository" value="F:\WorkSpace\mavenRepository" />
+        <option name="mavenHome" value="F:/RuanJianAnZhuang/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="C:\Users\Admin\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -68,14 +68,32 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\宋国玺\学习资料\LeetCode\codeProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P3LongestSubstringWithoutRepeatingCharacters">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.P4MedianOfTwoSortedArrays">
     <configuration name="P1TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P1TwoSum" />
       <module name="codeProject" />
@@ -115,25 +133,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P4MedianOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P4MedianOfTwoSortedArrays" />
+      <module name="codeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P4MedianOfTwoSortedArrays" />
         <item itemvalue="Application.P3LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.P2AddTwoNumbers" />
         <item itemvalue="Application.P1TwoSum" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -150,6 +170,7 @@
       <workItem from="1605769650262" duration="1535000" />
       <workItem from="1605784285157" duration="4152000" />
       <workItem from="1605832986648" duration="12033000" />
+      <workItem from="1605961943501" duration="3553000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1605761485058</created>
@@ -184,6 +205,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
