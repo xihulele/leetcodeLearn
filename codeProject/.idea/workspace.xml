@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88c00568-2314-4050-8fd1-7d0b53c4205a" name="Default Changelist" comment="">
+    <list default="true" id="88c00568-2314-4050-8fd1-7d0b53c4205a" name="Default Changelist" comment="p8">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P11ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P11ContainerWithMostWater.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P13RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P13RomanToInteger.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P14LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P15ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P17LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P19RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P19RemoveNthNodeFromEndOfList.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P20ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P21MergeTwoSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P21MergeTwoSortedLists.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P22GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P22GenerateParentheses.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P23MergeKSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P26RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P26RemoveDuplicatesFromSortedArray.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/domain/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/domain/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/translation.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +72,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1kUhungQRXSC27w8HvrsznQY3Wb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -61,6 +82,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -90,9 +112,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P7ReverseInteger">
-    <configuration name="P1TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P1TwoSum" />
+  <component name="RunManager" selected="Application.P26RemoveDuplicatesFromSortedArray">
+    <configuration name="P14LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P14LongestCommonPrefix" />
       <module name="codeProject" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P2AddTwoNumbers" />
+    <configuration name="P20ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P20ValidParentheses" />
       <module name="codeProject" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P3LongestSubstringWithoutRepeatingCharacters" />
+    <configuration name="P26RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P26RemoveDuplicatesFromSortedArray" />
       <module name="codeProject" />
       <extension name="coverage">
         <pattern>
@@ -158,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P26RemoveDuplicatesFromSortedArray" />
+        <item itemvalue="Application.P20ValidParentheses" />
+        <item itemvalue="Application.P14LongestCommonPrefix" />
         <item itemvalue="Application.P7ReverseInteger" />
         <item itemvalue="Application.P4MedianOfTwoSortedArrays" />
-        <item itemvalue="Application.P3LongestSubstringWithoutRepeatingCharacters" />
-        <item itemvalue="Application.P2AddTwoNumbers" />
-        <item itemvalue="Application.P1TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +205,16 @@
       <workItem from="1605832986648" duration="12033000" />
       <workItem from="1605961943501" duration="3623000" />
       <workItem from="1606631796659" duration="6348000" />
+      <workItem from="1606798120559" duration="4885000" />
+      <workItem from="1606828851080" duration="3006000" />
+      <workItem from="1606875403003" duration="3580000" />
+      <workItem from="1607050266738" duration="7670000" />
+      <workItem from="1607222267982" duration="486000" />
+      <workItem from="1607309046017" duration="18517000" />
+      <workItem from="1607344072226" duration="608000" />
+      <workItem from="1607388549569" duration="2604000" />
+      <workItem from="1607403063851" duration="5674000" />
+      <workItem from="1607474503466" duration="16319000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1605761485058</created>
@@ -219,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605966806111</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="p8">
+      <created>1606798192667</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606798192667</updated>
+    </task>
+    <task id="LOCAL-00007" summary="p8">
+      <created>1606798237180</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606798237180</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,10 +287,12 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
     <MESSAGE value="test2" />
     <MESSAGE value="test3" />
-    <option name="LAST_COMMIT_MESSAGE" value="test3" />
+    <MESSAGE value="p8" />
+    <option name="LAST_COMMIT_MESSAGE" value="p8" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Notifications" timestamp="1605769864146">
@@ -320,6 +368,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P3LongestSubstringWithoutRepeatingCharacters.java</url>
           <line>39</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P20ValidParentheses.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P26RemoveDuplicatesFromSortedArray.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
