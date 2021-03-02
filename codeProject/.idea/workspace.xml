@@ -1,29 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88c00568-2314-4050-8fd1-7d0b53c4205a" name="Default Changelist" comment="p8">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P11ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P11ContainerWithMostWater.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P13RomanToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P13RomanToInteger.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P14LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P15ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P17LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P19RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P19RemoveNthNodeFromEndOfList.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P20ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P21MergeTwoSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P21MergeTwoSortedLists.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P22GenerateParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P22GenerateParentheses.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P23MergeKSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P26RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P26RemoveDuplicatesFromSortedArray.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="88c00568-2314-4050-8fd1-7d0b53c4205a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-collections4-4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-lang3-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.04.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi 依赖.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi 依赖/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi 依赖/commons-collections4-4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi 依赖/commons-lang3-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi 依赖/curvesapi-1.04.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi 依赖/easypoi-annotation-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi 依赖/easypoi-base-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi 依赖/guava-16.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi 依赖/poi-3.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi 依赖/poi-ooxml-3.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi 依赖/poi-ooxml-schemas-3.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi 依赖/slf4j-api-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi 依赖/stax-api-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi 依赖/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi 依赖/xmlbeans-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi-annotation-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/easypoi-base-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/guava-16.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/poi-3.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/poi-ooxml-3.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/poi-ooxml-schemas-3.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-api-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/stax-api-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xmlbeans-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P101SymmetricTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P101SymmetricTree.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P104MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P108ConvertSortedArrayToBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P108ConvertSortedArrayToBinarySearchTree.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P118PascalsTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P118PascalsTriangle.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P121BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P121BestTimeToBuyAndSellStock.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P122BestTimeToBuyAndSellStockIi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P122BestTimeToBuyAndSellStockIi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P125ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P125ValidPalindrome.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P136SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P136SingleNumber.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P28ImplementStrstr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P28ImplementStrstr.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P29DivideTwoIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P29DivideTwoIntegers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P33SearchInRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P33SearchInRotatedSortedArray.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P34FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P34FindFirstAndLastPositionOfElementInSortedArray.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P36ValidSudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P36ValidSudoku.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P38CountAndSay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P38CountAndSay.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P41FirstMissingPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P42TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P42TrappingRainWater.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P44WildcardMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P46Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P46Permutations.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P48RotateImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P48RotateImage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P53MaximumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P53MaximumSubarray.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P66PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P66PlusOne.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P69Sqrtx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P69Sqrtx.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P70ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P70ClimbingStairs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P88MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P88MergeSortedArray.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/domain/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/summary/Backtracking/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/summary/BinarySearch/BinarySearch1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/summary/BinarySearch/BinarySearch2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/summary/BinarySearch/BinarySearch3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/summary/BinarySearch/BinarySearch4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/summary/BinarySearch/BinarySearch5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/domain/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/domain/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/P1TwoSum$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/P1TwoSum$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/P1TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/P1TwoSum.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,9 +158,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.editor.summary.Backtracking" />
+      <recent name="leetcode.editor.summary.BinarySearch" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\宋国玺\学习资料\LeetCode\codeProject" />
     </key>
@@ -112,9 +182,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P26RemoveDuplicatesFromSortedArray">
-    <configuration name="P14LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P14LongestCommonPrefix" />
+  <component name="RunManager" selected="Application.P136SingleNumber">
+    <configuration name="BinarySearch5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.summary.BinarySearch.BinarySearch5" />
+      <module name="codeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.summary.BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.summary.Backtracking.NQueens" />
+      <module name="codeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.summary.Backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P136SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P136SingleNumber" />
       <module name="codeProject" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +222,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P20ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P20ValidParentheses" />
+    <configuration name="P53MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P53MaximumSubarray" />
       <module name="codeProject" />
       <extension name="coverage">
         <pattern>
@@ -139,34 +235,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P26RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P26RemoveDuplicatesFromSortedArray" />
-      <module name="codeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P4MedianOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P4MedianOfTwoSortedArrays" />
-      <module name="codeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P7ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P7ReverseInteger" />
+    <configuration name="P70ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.P70ClimbingStairs" />
       <module name="codeProject" />
       <extension name="coverage">
         <pattern>
@@ -180,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P26RemoveDuplicatesFromSortedArray" />
-        <item itemvalue="Application.P20ValidParentheses" />
-        <item itemvalue="Application.P14LongestCommonPrefix" />
-        <item itemvalue="Application.P7ReverseInteger" />
-        <item itemvalue="Application.P4MedianOfTwoSortedArrays" />
+        <item itemvalue="Application.P136SingleNumber" />
+        <item itemvalue="Application.P70ClimbingStairs" />
+        <item itemvalue="Application.P53MaximumSubarray" />
+        <item itemvalue="Application.NQueens" />
+        <item itemvalue="Application.BinarySearch5" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +284,32 @@
       <workItem from="1607344072226" duration="608000" />
       <workItem from="1607388549569" duration="2604000" />
       <workItem from="1607403063851" duration="5674000" />
-      <workItem from="1607474503466" duration="16319000" />
+      <workItem from="1607474503466" duration="16387000" />
+      <workItem from="1607568695981" duration="2117000" />
+      <workItem from="1607681164593" duration="3409000" />
+      <workItem from="1607908684493" duration="14803000" />
+      <workItem from="1607955990730" duration="2452000" />
+      <workItem from="1607995658998" duration="6491000" />
+      <workItem from="1608039260845" duration="698000" />
+      <workItem from="1608207717998" duration="9000" />
+      <workItem from="1608622643026" duration="5681000" />
+      <workItem from="1608644087146" duration="636000" />
+      <workItem from="1608715901117" duration="736000" />
+      <workItem from="1609059046852" duration="1995000" />
+      <workItem from="1609205267672" duration="14087000" />
+      <workItem from="1610092035565" duration="1298000" />
+      <workItem from="1613632847782" duration="7136000" />
+      <workItem from="1613652318471" duration="3211000" />
+      <workItem from="1613696878971" duration="6093000" />
+      <workItem from="1613804030399" duration="3906000" />
+      <workItem from="1614068117423" duration="3340000" />
+      <workItem from="1614090220506" duration="1631000" />
+      <workItem from="1614127265262" duration="18918000" />
+      <workItem from="1614214109061" duration="14477000" />
+      <workItem from="1614419438922" duration="9366000" />
+      <workItem from="1614564101703" duration="10412000" />
+      <workItem from="1614602942069" duration="4495000" />
+      <workItem from="1614646704635" duration="6194000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1605761485058</created>
@@ -265,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606798237180</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="p8">
+      <created>1607506621253</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607506621254</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,66 +397,36 @@
     <option name="LAST_COMMIT_MESSAGE" value="p8" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Notifications" timestamp="1605769864146">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="178" key="#Notifications/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" timestamp="1605769864146" />
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1605839023627">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" timestamp="1605839023627" />
-    <state x="779" y="210" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1605769937917">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="779" y="210" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" timestamp="1605769937917" />
-    <state x="560" y="111" key="CommitChangelistDialog2" timestamp="1605872545131">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="560" y="111" key="CommitChangelistDialog2/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" timestamp="1605872545131" />
-    <state x="578" y="308" key="FileChooserDialogImpl" timestamp="1605762458375">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="578" y="308" key="FileChooserDialogImpl/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" timestamp="1605762458375" />
-    <state width="1876" height="348" key="GridCell.Tab.0.bottom" timestamp="1605853490357">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" timestamp="1605853490357" />
-    <state width="1876" height="348" key="GridCell.Tab.0.center" timestamp="1605853490357">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" timestamp="1605853490357" />
-    <state width="1876" height="348" key="GridCell.Tab.0.left" timestamp="1605853490357">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" timestamp="1605853490357" />
-    <state width="1876" height="348" key="GridCell.Tab.0.right" timestamp="1605853490357">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" timestamp="1605853490357" />
-    <state width="1876" height="348" key="GridCell.Tab.1.bottom" timestamp="1605853490358">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" timestamp="1605853490358" />
-    <state width="1876" height="348" key="GridCell.Tab.1.center" timestamp="1605853490357">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" timestamp="1605853490357" />
-    <state width="1876" height="348" key="GridCell.Tab.1.left" timestamp="1605853490357">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" timestamp="1605853490357" />
-    <state width="1876" height="348" key="GridCell.Tab.1.right" timestamp="1605853490358">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" timestamp="1605853490358" />
-    <state x="-436" y="215" width="1941" height="717" key="SettingsEditor" timestamp="1605853279516">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-436" y="215" width="1941" height="717" key="SettingsEditor/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" timestamp="1605853279516" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605770289560">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" timestamp="1605770289560" />
+    <state x="552" y="178" key="#Notifications" />
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" />
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" />
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" />
+    <state x="779" y="210" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" />
+    <state x="779" y="210" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" />
+    <state x="560" y="111" key="CommitChangelistDialog2" />
+    <state x="560" y="111" key="CommitChangelistDialog2/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" />
+    <state x="578" y="308" key="FileChooserDialogImpl" />
+    <state x="578" y="308" key="FileChooserDialogImpl/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" />
+    <state width="1876" height="348" key="GridCell.Tab.0.bottom" />
+    <state width="1876" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" />
+    <state width="1876" height="348" key="GridCell.Tab.0.center" />
+    <state width="1876" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" />
+    <state width="1876" height="348" key="GridCell.Tab.0.left" />
+    <state width="1876" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" />
+    <state width="1876" height="348" key="GridCell.Tab.0.right" />
+    <state width="1876" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" />
+    <state width="1876" height="348" key="GridCell.Tab.1.bottom" />
+    <state width="1876" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" />
+    <state width="1876" height="348" key="GridCell.Tab.1.center" />
+    <state width="1876" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" />
+    <state width="1876" height="348" key="GridCell.Tab.1.left" />
+    <state width="1876" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" />
+    <state width="1876" height="348" key="GridCell.Tab.1.right" />
+    <state width="1876" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" />
+    <state x="-436" y="215" width="1941" height="717" key="SettingsEditor" />
+    <state x="-436" y="215" width="1941" height="717" key="SettingsEditor/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-85.1920.1040@0.0.1920.1040" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -378,6 +450,51 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P26RemoveDuplicatesFromSortedArray.java</url>
           <line>50</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P28ImplementStrstr.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P29DivideTwoIntegers.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P29DivideTwoIntegers.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P34FindFirstAndLastPositionOfElementInSortedArray.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P34FindFirstAndLastPositionOfElementInSortedArray.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/summary/BinarySearch/BinarySearch1.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/cn/P38CountAndSay.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/summary/Backtracking/NQueens.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/editor/summary/Backtracking/NQueens.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
