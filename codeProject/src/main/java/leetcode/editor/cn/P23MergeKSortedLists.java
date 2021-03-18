@@ -87,7 +87,7 @@ class Solution {
 
     /**
      * 方法2 使用优选队列（本质是个大顶堆或者小顶堆）
-     * 将所有元素放入优先队列，然后出队
+     * 将所有链表的头部元素放入优先队列，然后出队，将出队节点的下个节点放入对列中去。
      */
     public ListNode mergeKLists2(ListNode[] lists) {
         PriorityQueue<Status> priorityQueue=new PriorityQueue();

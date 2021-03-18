@@ -23,14 +23,17 @@ import java.util.HashMap;
 
 public class P136SingleNumber {
     public static void main(String[] args) {
-        int[] nums=new int[]{2,2,1};
-        Solution solution = new P136SingleNumber().new Solution();
-        int i = solution.singleNumber(nums);
-        System.out.println(i);
+//        int[] nums=new int[]{2,2,1};
+//        Solution solution = new P136SingleNumber().new Solution();
+//        int i = solution.singleNumber(nums);
+        System.out.println(2^2);
+        System.out.println(2^3);
+        System.out.println(2^4);
+        System.out.println(2^5);
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int singleNumber(int[] nums) {
+    public int singleNumber2(int[] nums) {
 
         HashMap<Integer,Integer> map=new HashMap();
         for(int i=0;i<nums.length;++i){
@@ -50,6 +53,17 @@ class Solution {
         }
         return -1;
     }
+
+    //2.位运算 ：异或
+        // a^0=a; a^a=0; a^b^a=a^a^b=b;
+        public int singleNumber(int[] nums) {
+
+        int num=nums[0];
+        for(int i=1;i<nums.length;++i){
+            num=nums[i] ^num;
+        }
+            return num;
+        }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
